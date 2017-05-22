@@ -2,187 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e5f605b-df97-4d87-bcd5-deb8794e5511" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/images/image10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/fixtures/data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/fixtures/data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/templates/fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/AnimateAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/AutocompleteAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/assets/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/assets/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/assets/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/assets/list-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/assets/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/AccessControl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/Configs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/DbManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/GuestRule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/Helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/ItemController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/MenuHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/RouteRule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/AssignmentController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/MenuController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/PermissionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/RoleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/RouteController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/RuleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/guide/avaliable-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/guide/basic-usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/guide/configuration.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/guide/user-management.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/docs/guide/using-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/mail/layouts/html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/mail/layouts/text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/mail/passwordResetToken-html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/mail/passwordResetToken-text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/de/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/en/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/es/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/fa-IR/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/fr/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/hr/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/it/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/ja/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/nl/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/pl/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/pt-BR/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/ru/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/th/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/vi/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/messages/zh-CN/rbac-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/m140602_111327_create_menu_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/m160312_050000_create_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/schema-mssql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/schema-mysql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/schema-oci.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/schema-pgsql.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/migrations/schema-sqlite.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/Assignment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/AuthItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/BizRule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/Menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/ChangePassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/PasswordResetRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/ResetPassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/Signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/searchs/Assignment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/searchs/AuthItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/searchs/BizRule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/searchs/Menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/searchs/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/_output/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/_pages/CreateItemPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/_pages/RoutePage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/_support/FixtureHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/acceptance.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/acceptance/CreateItemCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/acceptance/RouteCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/acceptance/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/bin/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/bin/yii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/bin/yii.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/acceptance.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/functional.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/config/web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/fixtures/AdminFixture.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/fixtures/data/admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/functional.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/functional/CreateItemCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/functional/RouteCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/functional/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/templates/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/components/HelperTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/models/ItemTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/codeception/unit/models/RouteTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/runtime/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/web/assets/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/tests/web/index-test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/assignment/_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/assignment/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/assignment/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/default/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/item/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/layouts/left-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/layouts/right-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/layouts/top-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/menu/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/route/_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/route/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/rule/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/rule/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/rule/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/rule/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/rule/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/change-password.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/requestPasswordResetToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/resetPassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/views/user/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rbac.yii.ps.iml" afterPath="$PROJECT_DIR$/.idea/rbac.yii.ps.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/console.php" afterPath="$PROJECT_DIR$/config/console.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/admin.php" afterPath="$PROJECT_DIR$/views/layouts/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.php" afterPath="$PROJECT_DIR$/models/User.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -196,18 +18,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="137" column="23" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,12 +29,17 @@
         <option value="$PROJECT_DIR$/basic/config/db.php" />
         <option value="$PROJECT_DIR$/migrations/m170522_134115_create_post.php" />
         <option value="$PROJECT_DIR$/modules/admin/module.php" />
-        <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/controllers/PostController.php" />
         <option value="$PROJECT_DIR$/views/post/index.php" />
         <option value="$PROJECT_DIR$/config/console.php" />
         <option value="$PROJECT_DIR$/views/layouts/admin.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" />
+        <option value="$PROJECT_DIR$/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/models/User.php" />
         <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/Login.php" />
+        <option value="$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -459,6 +275,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac.yii.ps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac.yii.ps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdmsoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -587,18 +433,26 @@
       <option name="presentableId" value="Default" />
       <updated>1495459925143</updated>
       <workItem from="1495459926485" duration="7965000" />
-      <workItem from="1495485740505" duration="672000" />
+      <workItem from="1495485740505" duration="5575000" />
     </task>
+    <task id="LOCAL-00001" summary="Add yii2-admin">
+      <created>1495487316903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495487316903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8637000" />
+    <option name="totallyTimeSpent" value="13540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,6 +476,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add yii2-admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add yii2-admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -698,43 +556,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/components/ItemController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -744,14 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -776,10 +596,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="247" column="13" lean-forward="false" selection-start-line="247" selection-start-column="13" selection-end-line="247" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="77" column="67" lean-forward="false" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/models/form/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mdmsoft/yii2-admin/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="137" column="23" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        <state relative-caret-position="428">
+          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>

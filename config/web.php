@@ -21,6 +21,7 @@ $config = [
         'user' => [
             'identityClass' => 'app\models\User',
             'loginUrl' => ['site/login'],
+            'enableAutoLogin' => true,
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
@@ -72,7 +73,6 @@ $config = [
             'site/*',
             'admin/*',
             'rbac/*',
-            'post/index',
         ]
     ],
     'params' => $params,
