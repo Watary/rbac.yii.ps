@@ -8,6 +8,13 @@ $config = [
     'bootstrap' => ['log'],
     'language' => 'ru',
     'components' => [
+        /*'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                ],
+            ],
+        ],*/
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
         ],
@@ -64,15 +71,14 @@ $config = [
                 ],
             ],
             'layout' => 'left-menu',
-            'mainLayout' => '@app/views/layouts/admin.php',
+            'mainLayout' => '@app/views/layouts/admin/main.php',
         ]
     ],
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
-            'admin/*',
-            'rbac/*',
+            'post/*',
         ]
     ],
     'params' => $params,
