@@ -6,8 +6,10 @@ use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
+use yii\helpers\Url;
 use yii\web\IdentityInterface;
 use mdm\admin\components\Configs;
+use yii\web\UploadedFile;
 
 /**
  * User model
@@ -29,6 +31,10 @@ class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_INACTIVE = 0;
     const STATUS_ACTIVE = 10;
+    /**
+     * @var UploadedFile
+     */
+    public $imageFile;
 
     /**
      * @inheritdoc
@@ -54,10 +60,11 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            ['username', 'string'],
+            [['username', 'avatar'], 'string'],
             ['email', 'email'],
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_INACTIVE]],
+            //['imageFile', 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg'],
         ];
     }
 
