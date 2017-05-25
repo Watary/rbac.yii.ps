@@ -6,6 +6,7 @@ use Yii;
 use app\models\Post;
 use app\models\PostSearch;
 use yii\web\Controller;
+use yii\web\ForbiddenHttpException;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
@@ -95,6 +96,10 @@ class PostController extends Controller
     {
         $model = $this->findModel($id);
 
+        if(!Yii::$app->getUser()->can('updateOwnPost', ['post' => $model])){
+            throw new ForbiddenHttpException('Don\'t can');
+        }
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
@@ -112,7 +117,13 @@ class PostController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
+
+        if(!Yii::$app->getUser()->can('updateOwnPost', ['post' => $model])){
+            throw new ForbiddenHttpException('Don\'t can');
+        }
+
+        $model->delete();
 
         return $this->redirect(['index']);
     }
