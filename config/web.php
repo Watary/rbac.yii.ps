@@ -79,6 +79,8 @@ $config = [
         'allowActions' => [
             'site/*',
             'post/*',
+            /*'admin/*',
+            'rbac/*',*/
         ]
     ],
     'params' => $params,

@@ -25,6 +25,7 @@ class AuthorRule extends Rule
      */
     public function execute($user, $item, $params)
     {
-        return isset($params['post']) ? $params['post']->author == $user : false;
+        return $params['post']->author == $user ? false : true;
+        //return isset($params['post']) ? $params['post']->author == $user : false;
     }
 }

@@ -96,7 +96,7 @@ class PostController extends Controller
     {
         $model = $this->findModel($id);
 
-        if(!Yii::$app->getUser()->can('updateOwnPost', ['post' => $model])){
+        if(Yii::$app->getUser()->can('updateOwnPost', ['post' => $model])){
             throw new ForbiddenHttpException('Don\'t can');
         }
 

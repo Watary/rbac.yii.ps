@@ -1,3 +1,7 @@
+<?php
+    use mdm\admin\components\MenuHelper;
+    use yii\bootstrap\Nav;
+?>
 <aside class="main-sidebar">
 
     <section class="sidebar">
@@ -10,12 +14,12 @@
             <div class="pull-left info">
                 <p><?= Yii::$app->getUser()->identity->username ?></p>
 
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                <!-- <a href="#"><i class="fa fa-circle text-success"></i> Online</a> -->
             </div>
         </div>
 
         <!-- search form -->
-        <form action="#" method="get" class="sidebar-form">
+        <!-- <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
                 <input type="text" name="q" class="form-control" placeholder="Search..."/>
               <span class="input-group-btn">
@@ -53,6 +57,13 @@
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
 
                 ],
+            ]
+        ) ?>
+
+        <?= Nav::widget(
+            [
+                'options' => ['class' => 'sidebar-menu'],
+                'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id)
             ]
         ) ?>
 
