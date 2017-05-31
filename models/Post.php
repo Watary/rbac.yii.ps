@@ -46,4 +46,8 @@ class Post extends \yii\db\ActiveRecord
             'author' => 'Author',
         ];
     }
+
+    public function getCount(){
+        return User::find()->count();
+    }
 }

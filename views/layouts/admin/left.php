@@ -35,8 +35,9 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
+                    ['label' => 'Home', 'icon' => 'home', 'url' => ['/admin']],
                     ['label' => 'Post', 'icon' => 'list-alt', 'url' => ['/admin/post']],
-                    ['label' => 'User', 'icon' => 'list-alt', 'url' => ['/admin/user']],
+                    ['label' => 'User', 'icon' => 'id-card', 'url' => ['/admin/user']],
                     [
                         'label' => 'RBAC',
                         'url' => ['/rbac'],

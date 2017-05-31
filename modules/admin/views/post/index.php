@@ -12,27 +12,38 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="post-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <?php if (Yii::$app->user->can('createPost')): ?>
-    <p>
-        <?= Html::a('Create Post', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-    <?php endif; ?>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'title',
-            'description:ntext',
-            'author',
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title"><?= Html::encode($this->title) ?></h3>
+            <div class="box-tools pull-right">
+                <?php if (Yii::$app->user->can('createPost')): ?>
+                    <p>
+                        <?= Html::a('Create Post', ['create'], ['class' => 'btn btn-success']) ?>
+                    </p>
+                <?php endif; ?>
+            </div><!-- /.box-tools -->
+        </div><!-- /.box-header -->
 
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
+        <div class="box-body">
+            <?= GridView::widget([
+                'dataProvider' => $dataProvider,
+                'filterModel' => $searchModel,
+                'columns' => [
+                    ['class' => 'yii\grid\SerialColumn'],
+
+                    'id',
+                    'title',
+                    'description:ntext',
+                    'author',
+
+                    ['class' => 'yii\grid\ActionColumn'],
+                ],
+            ]); ?>
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+
 </div>

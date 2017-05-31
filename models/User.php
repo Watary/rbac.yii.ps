@@ -10,6 +10,17 @@ use yii\helpers\Url;
 class User extends UserModel
 {
 
+    public function getCount(){
+        return User::find()->count();
+    }
+
+    public static function getUserBuId($id){
+        return User::find()
+            ->where(['id' => $id])
+            ->asArray()
+            ->one();
+    }
+
     public function uploadFiles($folder = 'main')
     {
         $url = 'uploads/' . $folder . '/' . $this->imageFile->baseName . '.' . $this->imageFile->extension;
