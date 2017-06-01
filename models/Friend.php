@@ -48,15 +48,14 @@ class Friend extends \yii\db\ActiveRecord
         ];
     }
 
-    public function addFriend($friend_id){
-
+    public function addFriend($friend_id)
+    {
         if($this->isFriends($friend_id, Yii::$app->getUser()->identity->getId())) return;
 
-
-        if($model = $this->isFriends(Yii::$app->getUser()->identity->getId(), $friend_id)) {
-            $model->active = true;
+        if($friend = $this->isFriends(Yii::$app->getUser()->identity->getId(), $friend_id)) {
+            $friend->active = true;
             $this->active = true;
-            $model->save();
+            $friend->save();
         }
 
         $this->id_friend = $friend_id;
@@ -66,8 +65,23 @@ class Friend extends \yii\db\ActiveRecord
         return $this->save();
     }
 
-    public function isFriends($id_friend, $id_user){
+    public function removeFriend($friend_id)
+    {
+        if(!$customer = $this->isFriends($friend_id, Yii::$app->getUser()->identity->getId())) return;
 
+        if($friend = $this->isFriends(Yii::$app->getUser()->identity->getId(), $friend_id)) {
+
+            $friend->active = 0;
+            $friend->save();
+        }
+
+        return $customer->delete();
+
+        //return $this->delete();
+    }
+
+    public function isFriends($id_friend, $id_user)
+    {
         return Friend::find()
             ->where([
                 'id_user' => $id_user,

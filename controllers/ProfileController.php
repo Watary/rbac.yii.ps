@@ -20,12 +20,13 @@ class ProfileController extends Controller
     public $own = false;
     public $friend = false;
 
-    public function actionIndex($id = NULL){
+    public function actionIndex($id = NULL)
+    {
         return $this->actionView($id);
     }
 
-    public function actionView($id = NULL){
-
+    public function actionView($id = NULL)
+    {
         if(!$id){
             $id = Yii::$app->getUser()->identity->id;
         }
@@ -54,29 +55,42 @@ class ProfileController extends Controller
         return $this->render('index', ['user' => $user]);
     }
 
-    public function actionAddFriend($id = NULL){
+    public function actionAddFriend($id = NULL)
+    {
         if($id) {
             $model = new Friend();
-
             $model->addFriend($id);
         }
 
         return $this->redirect('/profile/view/' . $id);
     }
 
-    public function actionWriteMessage($id = NULL){
+    public function actionRemoveFriend($id = NULL)
+    {
+        if($id) {
+            $model = new Friend();
+            $model->removeFriend($id);
+        }
+
+        return $this->redirect('/profile/view/' . $id);
+    }
+
+    public function actionWriteMessage($id = NULL)
+    {
         echo 'write-message';
         return $this->redirect('/profile/view/' . $id);
     }
 
-    public function isOwn($id){
+    public function isOwn($id)
+    {
         if (Yii::$app->getUser()->identity->id == $id){
             $this->own = true;
         }
         return;
     }
 
-    public function isFriend($id){
+    public function isFriend($id)
+    {
         $model = new Friend();
 
         if ($model->isFriends($id, Yii::$app->getUser()->identity->id)){

@@ -43,7 +43,7 @@ $this->title = $user['username'];
 
                         <?php if(!$user['own']){ ?>
                             <div class="list-group">
-                                <?= $user['friend'] ? '' : Html::a('Add to friends', '/profile/add-friend/' . $user['id'], ['class' => 'list-group-item text-center']); ?>
+                                <?= $user['friend'] ? Html::a('Remove friends', '/profile/remove-friend/' . $user['id'], ['class' => 'list-group-item text-center']) : Html::a('Add to friends', '/profile/add-friend/' . $user['id'], ['class' => 'list-group-item text-center']) ?>
                                 <?= Html::a('Write message', '/profile/write-message/' . $user['id'], ['class' => 'list-group-item text-center']) ?>
                             </div>
                         <?php } ?>
