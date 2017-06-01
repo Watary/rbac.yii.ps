@@ -17,8 +17,10 @@ $this->title = $user['username'];
             <div class="list-group">
                 <?= Html::a('Profile', '/profile/view/' . $user['id'], ['class' => 'list-group-item']) ?>
                 <!-- <?= Html::a('Friends <span class="badge pull-right">4</span>', '/profile/friends/' . $user['id'], ['class' => 'list-group-item']) ?>
-                <?= Html::a('Messages <span class="badge pull-right">25</span>', '/profile/messages', ['class' => 'list-group-item']) ?>
-                <?= Html::a('Setting', '/profile/setting', ['class' => 'list-group-item']) ?> -->
+                <?= Html::a('Messages <span class="badge pull-right">25</span>', '/profile/messages', ['class' => 'list-group-item']) ?>-->
+                <?php if($user['own']){ ?>
+                    <?= Html::a('Setting', '/profile/setting', ['class' => 'list-group-item']) ?>
+                <?php } ?>
             </div>
         </div>
 
@@ -31,13 +33,20 @@ $this->title = $user['username'];
                     <div class="col-sm-4">
                         <img src="<?= $user['avatar'] ?>" alt="avatar" class="img-circle">
 
-                        <div class="text-center" style="font-size: 20px; margin-top: 10px;">
+                        <div class="text-center" style="font-size: 20px; margin-top: 10px; margin-bottom: 10px;">
                             <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
+
+                        <?php if(!$user['own']){ ?>
+                            <div class="list-group">
+                                <?= $user['friend'] ? '' : Html::a('Add to friends', '/profile/add-friend/' . $user['id'], ['class' => 'list-group-item text-center']); ?>
+                                <?= Html::a('Write message', '/profile/write-message/' . $user['id'], ['class' => 'list-group-item text-center']) ?>
+                            </div>
+                        <?php } ?>
                     </div>
 
                     <div class="col-sm-8">

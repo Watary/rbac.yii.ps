@@ -16,6 +16,9 @@ use app\models\User;
 class ProfileController extends Controller
 {
 
+    public $own = false;
+    public $friend = false;
+
     public function actionIndex($id = NULL){
         return $this->actionView($id);
     }
@@ -26,6 +29,8 @@ class ProfileController extends Controller
             $id = Yii::$app->getUser()->identity->id;
         }
 
+        $this->ifOwn($id);
+
         $model = User::getUserBuId($id);
 
         $user['id'] = $model['id'];
@@ -35,6 +40,9 @@ class ProfileController extends Controller
         $user['created_at'] = $model['created_at'];
         $user['updated_at'] = $model['updated_at'];
 
+        $user['own'] = $this->own;
+        $user['friend'] = $this->friend;
+
         if ($model['avatar']) {
             $user['avatar'] =  Url::home(true) . $model['avatar'];
         }else{
@@ -42,6 +50,23 @@ class ProfileController extends Controller
         }
 
         return $this->render('index', ['user' => $user]);
+    }
+
+    public function actionAddFriend($id = NULL){
+        echo 'Add to friends';
+        return $this->redirect('/profile/view/' . $id);
+    }
+
+    public function actionWriteMessage($id = NULL){
+        echo 'write-message';
+        return $this->redirect('/profile/view/' . $id);
+    }
+
+    public function ifOwn($id){
+        if (Yii::$app->getUser()->identity->id == $id){
+            $this->own = true;
+        }
+        return;
     }
 
 }
