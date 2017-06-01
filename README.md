@@ -76,5 +76,4 @@ MODULES
 -------
 
     admin               Admin panel
-    -profile            Users profiles
 

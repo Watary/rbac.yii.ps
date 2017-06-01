@@ -8,6 +8,7 @@
 
 namespace app\controllers;
 
+use app\models\Friend;
 use Yii;
 use yii\helpers\Url;
 use yii\web\Controller;
@@ -29,7 +30,8 @@ class ProfileController extends Controller
             $id = Yii::$app->getUser()->identity->id;
         }
 
-        $this->ifOwn($id);
+        $this->isOwn($id);
+        $this->isFriend($id);
 
         $model = User::getUserBuId($id);
 
@@ -53,7 +55,12 @@ class ProfileController extends Controller
     }
 
     public function actionAddFriend($id = NULL){
-        echo 'Add to friends';
+        if($id) {
+            $model = new Friend();
+
+            $model->addFriend($id);
+        }
+
         return $this->redirect('/profile/view/' . $id);
     }
 
@@ -62,9 +69,18 @@ class ProfileController extends Controller
         return $this->redirect('/profile/view/' . $id);
     }
 
-    public function ifOwn($id){
+    public function isOwn($id){
         if (Yii::$app->getUser()->identity->id == $id){
             $this->own = true;
+        }
+        return;
+    }
+
+    public function isFriend($id){
+        $model = new Friend();
+
+        if ($model->isFriends($id, Yii::$app->getUser()->identity->id)){
+            $this->friend = true;
         }
         return;
     }

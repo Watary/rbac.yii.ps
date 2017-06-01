@@ -260,14 +260,10 @@ use yii\helpers\Html;
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
-                                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                <?= Html::a('Profile', '/profile', ['class' => 'btn btn-default']) ?>
                             </div>
                             <div class="pull-right">
-                                <?= Html::a(
-                                    'Sign out',
-                                    ['/site/logout'],
-                                    ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']
-                                ) ?>
+                                <?= Html::a('Sign out', '/site/logout', ['data-method' => 'post', 'class' => 'btn btn-default']) ?>
                             </div>
                         </li>
                     </ul>
