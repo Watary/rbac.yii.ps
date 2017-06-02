@@ -50,4 +50,8 @@ class Post extends \yii\db\ActiveRecord
     public function getCount(){
         return User::find()->count();
     }
+
+    public function getAuthore(){
+        return $this->hasOne(User::className(), ['id' => 'author']);
+    }
 }

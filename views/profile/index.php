@@ -60,6 +60,17 @@ $this->title = $user['username'];
                     </div>
                 </div>
             </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Friends</h3>
+                </div>
+                <div class="panel-body">
+                    <?php foreach ($user['friends'] as $item) { ?>
+                        <div><?= Html::a($item->friends->username, '/profile/view/' . $item->friends->id, ['class' => 'btn']) ?></div>
+                    <?php } ?>
+                </div>
+            </div>
         </div>
     </div>
 </div>

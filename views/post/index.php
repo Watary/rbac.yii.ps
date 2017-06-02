@@ -7,8 +7,9 @@
  */
 
 foreach ($model as $item){ ?>
-    <div class="well">
+    <div class="well clearfix">
         <h3><?= $item->title ?></h3>
         <p><?= $item->description ?></p>
+        <p class="pull-right"><?= \yii\bootstrap\Html::a($item->authore->username, '/profile/view/' . $item->authore->id) ?></p>
     </div>
 <?php }

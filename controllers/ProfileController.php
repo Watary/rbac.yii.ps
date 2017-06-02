@@ -31,6 +31,8 @@ class ProfileController extends Controller
             $id = Yii::$app->getUser()->identity->id;
         }
 
+        $friend = Friend::findOne(13);
+
         $this->isOwn($id);
         $this->isFriend($id);
 
@@ -42,6 +44,7 @@ class ProfileController extends Controller
         $user['status'] = $model['status'];
         $user['created_at'] = $model['created_at'];
         $user['updated_at'] = $model['updated_at'];
+        $user['friends'] = $model->friends;
 
         $user['own'] = $this->own;
         $user['friend'] = $this->friend;
@@ -52,7 +55,7 @@ class ProfileController extends Controller
             $user['avatar'] =  Url::home(true) . 'uploads/avatar/avatar.png';
         }
 
-        return $this->render('index', ['user' => $user]);
+        return $this->render('index', ['user' => $user, 'friend' => $friend]);
     }
 
     public function actionAddFriend($id = NULL)
@@ -81,7 +84,7 @@ class ProfileController extends Controller
         return $this->redirect('/profile/view/' . $id);
     }
 
-    public function isOwn($id)
+    private function isOwn($id)
     {
         if (Yii::$app->getUser()->identity->id == $id){
             $this->own = true;
@@ -89,7 +92,7 @@ class ProfileController extends Controller
         return;
     }
 
-    public function isFriend($id)
+    private function isFriend($id)
     {
         $model = new Friend();
 

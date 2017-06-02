@@ -17,7 +17,6 @@ class User extends UserModel
     public static function getUserBuId($id){
         return User::find()
             ->where(['id' => $id])
-            ->asArray()
             ->one();
     }
 
@@ -31,6 +30,10 @@ class User extends UserModel
             return NULL;
         }
 
+    }
+
+    public function getFriends(){
+        return $this->hasMany(Friend::className(), ['id_user' => 'id']);
     }
 
     public function getAvatar(){
