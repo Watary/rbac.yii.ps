@@ -66,9 +66,22 @@ $this->title = $user['username'];
                     <h3 class="panel-title">Friends</h3>
                 </div>
                 <div class="panel-body">
-                    <?php foreach ($user['friends'] as $item) { ?>
-                        <div><?= Html::a($item->friends->username, '/profile/view/' . $item->friends->id, ['class' => 'btn']) ?></div>
-                    <?php } ?>
+                    <div class="row">
+                        <?php
+                            $count = 0;
+                            foreach ($user['friends'] as $item) {
+                                $count++;
+                                if($count >= 6) break;
+                        ?>
+                            <div class="col-sm-3 col-md-2 thumbnail">
+                                <a href="/profile/view/<?= $item->friends->id ?>">
+                                    <img src="<?= $item->friends->getAvatar() ?>" class="img-circle" alt="<?= $item->friends->username ?>">
+                                </a>
+                                <a href="/profile/view/<?= $item->friends->id ?>" class="btn center-block"><?= $item->friends->username ?></a>
+                                <!-- <?= Html::a($item->friends->username, '/profile/view/' . $item->friends->id, ['class' => 'btn center-block']) ?> -->
+                            </div>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>

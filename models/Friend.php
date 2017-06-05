@@ -78,7 +78,7 @@ class Friend extends \yii\db\ActiveRecord
         return $user->delete();
     }
 
-    /*public function listFriends($id = NULL)
+    public function listFriends($id = NULL)
     {
         if (!$id) $id = Yii::$app->getUser()->identity->getId();
 
@@ -87,9 +87,8 @@ class Friend extends \yii\db\ActiveRecord
             ->where([
                 'id_user' => $id,
             ])
-            ->asArray()
             ->all();
-    }*/
+    }
 
     public function getFriends(){
         return $this->hasOne(User::className(), ['id' => 'id_friend']);

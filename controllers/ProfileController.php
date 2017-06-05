@@ -10,7 +10,6 @@ namespace app\controllers;
 
 use app\models\Friend;
 use Yii;
-use yii\helpers\Url;
 use yii\web\Controller;
 use app\models\User;
 
@@ -31,8 +30,6 @@ class ProfileController extends Controller
             $id = Yii::$app->getUser()->identity->id;
         }
 
-        $friend = Friend::findOne(13);
-
         $this->isOwn($id);
         $this->isFriend($id);
 
@@ -45,17 +42,11 @@ class ProfileController extends Controller
         $user['created_at'] = $model['created_at'];
         $user['updated_at'] = $model['updated_at'];
         $user['friends'] = $model->friends;
-
         $user['own'] = $this->own;
         $user['friend'] = $this->friend;
+        $user['avatar'] = $model->getAvatar();
 
-        if ($model['avatar']) {
-            $user['avatar'] =  Url::home(true) . $model['avatar'];
-        }else{
-            $user['avatar'] =  Url::home(true) . 'uploads/avatar/avatar.png';
-        }
-
-        return $this->render('index', ['user' => $user, 'friend' => $friend]);
+        return $this->render('index', ['user' => $user]);
     }
 
     public function actionAddFriend($id = NULL)
